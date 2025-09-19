@@ -55,7 +55,7 @@ def get_therapy_json(markdown_text: str) -> dict:
 Important notes:
 - therapy_type should be one of: 'Chemotherapy', 'Biological Therapy', 'Targeted Therapy', 'Hormonal Therapy', 'Immunotherapy'
 - administration_route examples: 'Intravenous', 'Oral', 'Subcutaneous', 'Intramuscular'
-- Extract all drugs mentioned with their dosages and units
+- Extract all drugs mentioned for cancer treatment only with their dosages and units
 - Convert dates to YYYY-MM-DD format
 - Set adverse_event_observed to true if any side effects or adverse events are mentioned
 
